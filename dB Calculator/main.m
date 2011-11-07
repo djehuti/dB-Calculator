@@ -3,7 +3,7 @@
 //  dB Calculator
 //
 //  Created by Ben Cox on 11/7/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Ben Cox. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

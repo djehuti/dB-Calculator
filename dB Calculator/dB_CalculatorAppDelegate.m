@@ -3,7 +3,7 @@
 //  dB Calculator
 //
 //  Created by Ben Cox on 11/7/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Ben Cox. All rights reserved.
 //
 
 #import "dB_CalculatorAppDelegate.h"
@@ -12,9 +12,9 @@
 
 @synthesize window;
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+- (BOOL) applicationShouldTerminateAfterLastWindowClosed:(NSApplication*)sender
 {
-    // Insert code here to initialize your application
+    return YES;
 }
 
 @end

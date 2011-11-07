@@ -13,6 +13,7 @@
 		F25AFA50146823D400A23990 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F25AFA4E146823D400A23990 /* Credits.rtf */; };
 		F25AFA53146823D400A23990 /* dB_CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F25AFA52146823D400A23990 /* dB_CalculatorAppDelegate.m */; };
 		F25AFA56146823D400A23990 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25AFA54146823D400A23990 /* MainMenu.xib */; };
+		F25AFA5E146824AF00A23990 /* dbCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = F25AFA5D146824AF00A23990 /* dbCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		F25AFA42146823D400A23990 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		F25AFA43146823D400A23990 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F25AFA44146823D400A23990 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F25AFA47146823D400A23990 /* dB Calculator-Info.plist */ = {isa = PBXFileReference; path = "dB Calculator-Info.plist"; sourceTree = "<group>"; };
+		F25AFA47146823D400A23990 /* dB Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dB Calculator-Info.plist"; sourceTree = "<group>"; };
 		F25AFA49146823D400A23990 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F25AFA4B146823D400A23990 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F25AFA4D146823D400A23990 /* dB Calculator-Prefix.pch */ = {isa = PBXFileReference; path = "dB Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		F25AFA4D146823D400A23990 /* dB Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dB Calculator-Prefix.pch"; sourceTree = "<group>"; };
 		F25AFA4F146823D400A23990 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		F25AFA51146823D400A23990 /* dB_CalculatorAppDelegate.h */ = {isa = PBXFileReference; path = dB_CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		F25AFA51146823D400A23990 /* dB_CalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dB_CalculatorAppDelegate.h; sourceTree = "<group>"; };
 		F25AFA52146823D400A23990 /* dB_CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dB_CalculatorAppDelegate.m; sourceTree = "<group>"; };
 		F25AFA55146823D400A23990 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F25AFA5C146824AF00A23990 /* dbCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dbCalculator.h; sourceTree = "<group>"; };
+		F25AFA5D146824AF00A23990 /* dbCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dbCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 			children = (
 				F25AFA51146823D400A23990 /* dB_CalculatorAppDelegate.h */,
 				F25AFA52146823D400A23990 /* dB_CalculatorAppDelegate.m */,
+				F25AFA5C146824AF00A23990 /* dbCalculator.h */,
+				F25AFA5D146824AF00A23990 /* dbCalculator.m */,
 				F25AFA54146823D400A23990 /* MainMenu.xib */,
 				F25AFA46146823D400A23990 /* Supporting Files */,
 			);
@@ -164,6 +169,7 @@
 			files = (
 				F25AFA4C146823D400A23990 /* main.m in Sources */,
 				F25AFA53146823D400A23990 /* dB_CalculatorAppDelegate.m in Sources */,
+				F25AFA5E146824AF00A23990 /* dbCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +207,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -227,7 +233,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;

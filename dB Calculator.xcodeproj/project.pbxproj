@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F25AFA40146823D400A23990 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F25AFA3F146823D400A23990 /* Cocoa.framework */; };
+		F25AFA4A146823D400A23990 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F25AFA48146823D400A23990 /* InfoPlist.strings */; };
+		F25AFA4C146823D400A23990 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F25AFA4B146823D400A23990 /* main.m */; };
+		F25AFA50146823D400A23990 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F25AFA4E146823D400A23990 /* Credits.rtf */; };
+		F25AFA53146823D400A23990 /* dB_CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F25AFA52146823D400A23990 /* dB_CalculatorAppDelegate.m */; };
+		F25AFA56146823D400A23990 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F25AFA54146823D400A23990 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F25AFA3B146823D400A23990 /* dB Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dB Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25AFA3F146823D400A23990 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F25AFA42146823D400A23990 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F25AFA43146823D400A23990 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F25AFA44146823D400A23990 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F25AFA47146823D400A23990 /* dB Calculator-Info.plist */ = {isa = PBXFileReference; path = "dB Calculator-Info.plist"; sourceTree = "<group>"; };
+		F25AFA49146823D400A23990 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F25AFA4B146823D400A23990 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F25AFA4D146823D400A23990 /* dB Calculator-Prefix.pch */ = {isa = PBXFileReference; path = "dB Calculator-Prefix.pch"; sourceTree = "<group>"; };
+		F25AFA4F146823D400A23990 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F25AFA51146823D400A23990 /* dB_CalculatorAppDelegate.h */ = {isa = PBXFileReference; path = dB_CalculatorAppDelegate.h; sourceTree = "<group>"; };
+		F25AFA52146823D400A23990 /* dB_CalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dB_CalculatorAppDelegate.m; sourceTree = "<group>"; };
+		F25AFA55146823D400A23990 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F25AFA38146823D400A23990 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25AFA40146823D400A23990 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F25AFA30146823D400A23990 = {
+			isa = PBXGroup;
+			children = (
+				F25AFA45146823D400A23990 /* dB Calculator */,
+				F25AFA3E146823D400A23990 /* Frameworks */,
+				F25AFA3C146823D400A23990 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F25AFA3C146823D400A23990 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F25AFA3B146823D400A23990 /* dB Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F25AFA3E146823D400A23990 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F25AFA3F146823D400A23990 /* Cocoa.framework */,
+				F25AFA41146823D400A23990 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F25AFA41146823D400A23990 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F25AFA42146823D400A23990 /* AppKit.framework */,
+				F25AFA43146823D400A23990 /* CoreData.framework */,
+				F25AFA44146823D400A23990 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F25AFA45146823D400A23990 /* dB Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				F25AFA51146823D400A23990 /* dB_CalculatorAppDelegate.h */,
+				F25AFA52146823D400A23990 /* dB_CalculatorAppDelegate.m */,
+				F25AFA54146823D400A23990 /* MainMenu.xib */,
+				F25AFA46146823D400A23990 /* Supporting Files */,
+			);
+			path = "dB Calculator";
+			sourceTree = "<group>";
+		};
+		F25AFA46146823D400A23990 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F25AFA47146823D400A23990 /* dB Calculator-Info.plist */,
+				F25AFA48146823D400A23990 /* InfoPlist.strings */,
+				F25AFA4B146823D400A23990 /* main.m */,
+				F25AFA4D146823D400A23990 /* dB Calculator-Prefix.pch */,
+				F25AFA4E146823D400A23990 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F25AFA3A146823D400A23990 /* dB Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25AFA59146823D400A23990 /* Build configuration list for PBXNativeTarget "dB Calculator" */;
+			buildPhases = (
+				F25AFA37146823D400A23990 /* Sources */,
+				F25AFA38146823D400A23990 /* Frameworks */,
+				F25AFA39146823D400A23990 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dB Calculator";
+			productName = "dB Calculator";
+			productReference = F25AFA3B146823D400A23990 /* dB Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25AFA32146823D400A23990 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = F25AFA35146823D400A23990 /* Build configuration list for PBXProject "dB Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F25AFA30146823D400A23990;
+			productRefGroup = F25AFA3C146823D400A23990 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F25AFA3A146823D400A23990 /* dB Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F25AFA39146823D400A23990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25AFA4A146823D400A23990 /* InfoPlist.strings in Resources */,
+				F25AFA50146823D400A23990 /* Credits.rtf in Resources */,
+				F25AFA56146823D400A23990 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F25AFA37146823D400A23990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25AFA4C146823D400A23990 /* main.m in Sources */,
+				F25AFA53146823D400A23990 /* dB_CalculatorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F25AFA48146823D400A23990 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25AFA49146823D400A23990 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F25AFA4E146823D400A23990 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25AFA4F146823D400A23990 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F25AFA54146823D400A23990 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25AFA55146823D400A23990 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F25AFA57146823D400A23990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F25AFA58146823D400A23990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F25AFA5A146823D400A23990 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dB Calculator/dB Calculator-Prefix.pch";
+				INFOPLIST_FILE = "dB Calculator/dB Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F25AFA5B146823D400A23990 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "dB Calculator/dB Calculator-Prefix.pch";
+				INFOPLIST_FILE = "dB Calculator/dB Calculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F25AFA35146823D400A23990 /* Build configuration list for PBXProject "dB Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25AFA57146823D400A23990 /* Debug */,
+				F25AFA58146823D400A23990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25AFA59146823D400A23990 /* Build configuration list for PBXNativeTarget "dB Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25AFA5A146823D400A23990 /* Debug */,
+				F25AFA5B146823D400A23990 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F25AFA32146823D400A23990 /* Project object */;
+}
